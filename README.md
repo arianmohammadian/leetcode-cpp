@@ -6,22 +6,23 @@ This repository documents my algorithmic problem-solving practice, focusing on d
 
 ## Organization
 
-All solutions are stored in the [`solutions/`](solutions/) directory, with each problem in a separate `.cc` file named using its LeetCode problem ID and title.
+Solutions are organized by difficulty, with each problem stored in a separate `.cc` file named using its LeetCode problem ID and title.
 
 ```text
 leetcode-cpp/
 ├── README.md
-└── solutions/
-    ├── 0001-two-sum.cc
-    ├── 0004-median-of-two-sorted-arrays.cc
-    ├── 0008-string-to-integer-atoi.cc
-    ├── 0009-palindrome-number.cc
-    ├── 0011-container-with-most-water.cc
-    ├── 0050-powx-n.cc
-    ├── 0100-same-tree.cc
-    ├── 0104-maximum-depth-of-binary-tree.cc
-    └── 3600-maximize-spanning-tree-stability-with-upgrades.cc
+├── easy/
+├── medium/
+└── hard/
 ```
+
+## Browse Solutions
+
+| Difficulty | Solutions |
+|---|---|
+| Easy | [Browse Easy Problems](easy/) |
+| Medium | [Browse Medium Problems](medium/) |
+| Hard | [Browse Hard Problems](hard/) |
 
 Each solution includes:
 
@@ -30,12 +31,6 @@ Each solution includes:
 - A C++ implementation following LeetCode's submission format.
 
 Some solutions rely on data structures provided by LeetCode, such as `TreeNode`.
-
-## Solutions
-
-**[Browse all LeetCode solutions](solutions/)**
-
-The collection will continue to grow as I solve new problems and explore different algorithmic techniques.
 
 ## Related Repository
 
